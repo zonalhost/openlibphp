@@ -1,0 +1,26 @@
+{
+    "name": "zonalhost/openlibphp",
+    "description": "Contains php functions and classes that can be used independently in any Php project.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pramod",
+            "email": "prkrim@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"OLP\\": "src/"
+		}
+	},
+	"config": {
+		"preferred-install": "dist",
+		"sort-packages": true,
+		"optimize-autoloader": true
+	}
+}
