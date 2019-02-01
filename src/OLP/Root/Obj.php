@@ -1,5 +1,5 @@
 <?php
-namespace OLP\Base;
+namespace OLP\Root;
 /**
   * Contains all methods related to disk directories.
   *
@@ -9,7 +9,7 @@ namespace OLP\Base;
   *
   */
 
-class Root
+class Obj
 {
 	
 	public function __construct()
